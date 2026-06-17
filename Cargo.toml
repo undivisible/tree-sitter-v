@@ -1,8 +1,8 @@
 [package]
 name = "tree-sitter-v"
-version = "0.0.2"
+version = "0.0.3"
 description = "V language grammar for tree-sitter — maintained fork"
-license = "MIT"
+license = "MPL-2.0"
 edition = "2021"
 repository = "https://github.com/undivisible/tree-sitter-v"
 keywords = ["tree-sitter", "vlang", "grammar", "parser", "v"]
