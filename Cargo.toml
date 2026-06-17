@@ -1,12 +1,24 @@
 [package]
 name = "tree-sitter-v"
-version = "0.0.1"
-description = "V language grammar for tree-sitter (vendored)"
+version = "0.0.2"
+description = "V language grammar for tree-sitter — maintained fork"
 license = "MIT"
 edition = "2021"
+repository = "https://github.com/undivisible/tree-sitter-v"
+keywords = ["tree-sitter", "vlang", "grammar", "parser", "v"]
+categories = ["parsing", "text-editors"]
 
 [lib]
 path = "lib.rs"
+
+include = [
+  "lib.rs",
+  "build.rs",
+  "grammar.js",
+  "src/*",
+  "queries/*",
+  "corpus/*",
+]
 
 [dependencies]
 tree-sitter-language = "0.1"
