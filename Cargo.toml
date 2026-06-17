@@ -16,8 +16,8 @@ include = [
   "build.rs",
   "grammar.js",
   "src/*",
-  "queries/*",
   "corpus/*",
+  "highlights.scm",
 ]
 
 [dependencies]
