@@ -1,1 +1,0 @@
-/private/tmp/tsv/target/debug/libtree_sitter_v.rlib: /private/tmp/tsv/target/package/tree-sitter-v-0.0.2/build.rs /private/tmp/tsv/target/package/tree-sitter-v-0.0.2/highlights.scm /private/tmp/tsv/target/package/tree-sitter-v-0.0.2/lib.rs /private/tmp/tsv/target/package/tree-sitter-v-0.0.2/src/node-types.json /private/tmp/tsv/target/package/tree-sitter-v-0.0.2/src/parser.c
