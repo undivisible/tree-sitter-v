@@ -2,7 +2,7 @@
 name = "tree-sitter-v"
 version = "0.0.3"
 description = "V language grammar for tree-sitter — maintained fork"
-license = "MPL-2.0"
+license = "ISC"
 edition = "2021"
 repository = "https://github.com/undivisible/tree-sitter-v"
 keywords = ["tree-sitter", "vlang", "grammar", "parser", "v"]
