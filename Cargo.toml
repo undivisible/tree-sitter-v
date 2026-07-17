@@ -1,6 +1,6 @@
 [package]
 name = "tree-sitter-v"
-version = "0.0.3"
+version = "0.0.4"
 description = "V language grammar for tree-sitter — maintained fork"
 license = "ISC"
 edition = "2021"
