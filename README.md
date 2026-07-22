@@ -49,6 +49,6 @@ cargo add tree-sitter-v
 
 ## License
 
-[MPL-2.0](LICENSE) — see [LICENSE](LICENSE).
+ISC — see [LICENSE](LICENSE).
 
 Original grammar by [Ned Palacios](https://github.com/nedpals) and contributors.
