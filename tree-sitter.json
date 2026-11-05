@@ -1,0 +1,17 @@
+{
+  "grammars": [
+    {
+      "name": "v",
+      "scope": "source.v",
+      "path": ".",
+      "file-types": ["v", "vsh"],
+      "highlights": "highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.4",
+    "license": "ISC AND MIT",
+    "description": "Tree-sitter grammar for V",
+    "authors": [{"name": "undivisible"}]
+  }
+}

@@ -1,7 +1,6 @@
 //! V language grammar for [tree-sitter](https://tree-sitter.github.io/tree-sitter/).
 ///
 /// Maintained fork of [nedpals/tree-sitter-v](https://github.com/nedpals/tree-sitter-v).
-
 use tree_sitter_language::LanguageFn;
 
 extern "C" {
@@ -31,5 +30,17 @@ mod tests {
     fn test_highlights_query_compiles() {
         tree_sitter::Query::new(&super::LANGUAGE.into(), super::HIGHLIGHTS_QUERY)
             .expect("Error loading V highlight query");
+    }
+
+    #[test]
+    fn parses_string_interpolation() {
+        let mut parser = tree_sitter::Parser::new();
+        parser.set_language(&super::LANGUAGE.into()).unwrap();
+        let tree = parser
+            .parse("fn main() { println(\"Hello ${name}!\") }", None)
+            .unwrap();
+        let root = tree.root_node();
+        assert!(!root.has_error(), "{}", root.to_sexp());
+        assert!(root.to_sexp().contains("(string_interpolation"));
     }
 }

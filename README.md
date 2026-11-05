@@ -28,7 +28,7 @@ cargo add tree-sitter-v
 
 ## Features
 
-- 244 node types covering V syntax
+- V syntax nodes for declarations, expressions, and types
 - Functions, structs, generics, interfaces, enums
 - Arrays, slices, maps, closures
 - Comptime blocks and selectors
@@ -52,3 +52,10 @@ cargo add tree-sitter-v
 ISC — see [LICENSE](LICENSE).
 
 Original grammar by [Ned Palacios](https://github.com/nedpals) and contributors.
+The upstream grammar and scanner are MIT licensed; see `LICENSE.upstream`.
+
+## Development
+
+Use Tree-sitter CLI 0.25.10 to regenerate `src/parser.c` and the node types with
+`tree-sitter generate`, then run `tree-sitter test` and `cargo test`. The scanner
+is compiled alongside the generated parser by the Rust binding.
