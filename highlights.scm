@@ -20,7 +20,6 @@
     field: (identifier) @method))
 
 (type_identifier) @type
-(builtin_type) @type
 (pointer_type) @type
 (array_type) @type
 

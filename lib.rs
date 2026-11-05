@@ -26,4 +26,10 @@ mod tests {
             .set_language(&super::LANGUAGE.into())
             .expect("Error loading V language");
     }
+
+    #[test]
+    fn test_highlights_query_compiles() {
+        tree_sitter::Query::new(&super::LANGUAGE.into(), super::HIGHLIGHTS_QUERY)
+            .expect("Error loading V highlight query");
+    }
 }
