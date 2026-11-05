@@ -2,6 +2,8 @@
 name = "tree-sitter-v"
 version = "0.0.5"
 description = "V language grammar for tree-sitter — maintained fork"
+# Fork contributions are ISC; imported grammar and scanner carry MIT notices
+# in LICENSE.upstream and LICENSE.vls, both included in the crate.
 license = "ISC AND MIT"
 edition = "2021"
 repository = "https://github.com/undivisible/tree-sitter-v"

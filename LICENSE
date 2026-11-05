@@ -2,6 +2,13 @@ ISC License
 
 Copyright (c) 2026 undivisible
 
+This ISC notice applies to the fork's contributions. The imported grammar and
+scanner also carry MIT notices in LICENSE.upstream and LICENSE.vls. The scanner
+was recovered from nedpals/tree-sitter-v at commit
+6a35f91228eac6456154435f12dd8c4f75b4c830; its original source matches
+vlang/vls commit 548f31c42b9904a648865031c9c7caa3da4bfa92, where both
+the grammar directory and repository were MIT licensed.
+
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
 copyright notice and this permission notice appear in all copies.

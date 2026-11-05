@@ -49,10 +49,14 @@ cargo add tree-sitter-v
 
 ## License
 
-ISC and MIT — see [LICENSE](LICENSE) and [LICENSE.upstream](LICENSE.upstream).
+ISC and MIT — see [LICENSE](LICENSE), [LICENSE.upstream](LICENSE.upstream),
+and [LICENSE.vls](LICENSE.vls).
 
 Original grammar by [Ned Palacios](https://github.com/nedpals) and contributors.
-The upstream grammar and scanner are MIT licensed; see `LICENSE.upstream`.
+The recovered scanner came from `nedpals/tree-sitter-v` at commit
+`6a35f91228eac6456154435f12dd8c4f75b4c830`. Its original bytes match
+`vlang/vls` commit `548f31c42b9904a648865031c9c7caa3da4bfa92`, where the
+grammar directory and repository each carried MIT notices.
 
 ## Development
 
