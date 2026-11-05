@@ -1,6 +1,6 @@
 [package]
 name = "tree-sitter-v"
-version = "0.0.4"
+version = "0.0.5"
 description = "V language grammar for tree-sitter — maintained fork"
 license = "ISC AND MIT"
 edition = "2021"
@@ -16,6 +16,7 @@ include = [
   "highlights.scm",
   "tree-sitter.json",
   "LICENSE*",
+  "CHANGELOG.md",
 ]
 
 [lib]

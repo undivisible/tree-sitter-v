@@ -49,7 +49,7 @@ cargo add tree-sitter-v
 
 ## License
 
-ISC — see [LICENSE](LICENSE).
+ISC and MIT — see [LICENSE](LICENSE) and [LICENSE.upstream](LICENSE.upstream).
 
 Original grammar by [Ned Palacios](https://github.com/nedpals) and contributors.
 The upstream grammar and scanner are MIT licensed; see `LICENSE.upstream`.
